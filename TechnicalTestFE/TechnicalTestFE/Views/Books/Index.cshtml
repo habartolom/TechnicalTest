@@ -1,4 +1,15 @@
 ﻿<br />
+
+@if (TempData["Limit"] != null)
+{
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <strong>@TempData["Limit"]</strong>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
 <div class="container">
     <div class="row">
         <div class="col-6">
@@ -6,8 +17,8 @@
         </div>
         <div class="col-6 text-right">
             <a asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i> Crear Nuevo Libro</a>
+            <a asp-action="SetLimit" class="btn btn-success"> Establecer límite</a>
         </div>
-
     </div>
 
     <br />

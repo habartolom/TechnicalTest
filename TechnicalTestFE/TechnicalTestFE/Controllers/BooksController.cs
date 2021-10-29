@@ -19,8 +19,11 @@ namespace TechnicalTestFE.Controllers
             _service = service;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            var limit = await _service.GetRegistrationLimit();
+
+            TempData["Limit"] = limit >= 0 ? $"Recuerde: El máximo número de libros permitidos es : {limit}" : null;
             return View();
         }
 
@@ -102,6 +105,39 @@ namespace TechnicalTestFE.Controllers
                 return Json(new { success = false, message = "Error borrando Libro" });
 
             return Json(new { success = true, message = "Libro eliminado con éxito" });
+        }
+
+
+        [HttpGet]
+        public async Task<IActionResult> SetLimit()
+        {
+            var limit = new Constant();
+
+            var limitDB = await _service.GetRegistrationLimit();
+            if (limitDB >= 0)
+                limit.Value = limitDB;
+
+            return View("Limit", limit);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SetLimit(Constant limit)
+        {
+            var response = await _service.SetRegistrationLimit(limit.Value);
+            if (response != null)
+            {
+                if (response.StatusCode.Equals(System.Net.HttpStatusCode.OK))
+                {
+                    TempData["Message"] = null;
+                    return RedirectToAction(nameof(Index));
+                }
+
+                TempData["Message"] = response.Message;
+                return View(limit);
+            }
+
+            TempData["Message"] = "Error";
+            return View(limit);
         }
     }
 }

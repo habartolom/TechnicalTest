@@ -1,0 +1,51 @@
+﻿@model Constant
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+<br />
+<br />
+<h3 class="text-center"> Establecer Límite de Registros</h3>
+<br />
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>@TempData["Message"]</strong>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+<form method="post" asp-action="SetLimit">
+    <div class="row px-2 py-4 mx-2 my-4 border">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-10 offset-1 mt-3">
+
+            <div class="form-group row">
+                <div class="col-4 my-3">
+                    <label asp-for="Value" class="control-label">Título</label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Value" class="form-control" />
+                    <span asp-validation-for="Value" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Guardar cambios" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -155,7 +155,7 @@ namespace TechnicalTestFE.Services
             }
         }
 
-        public async Task<Book> SetRegistrationLimit(int limit)
+        public async Task<Response<Constant>> SetRegistrationLimit(int limit)
         {
             using (var client = GetClient("Libros"))
             {
@@ -165,8 +165,8 @@ namespace TechnicalTestFE.Services
                     return null;
 
                 var content = await response.Content.ReadAsStringAsync();
-                var result = JsonConvert.DeserializeObject<Response<Book>>(content);
-                return result.Data;
+                var result = JsonConvert.DeserializeObject<Response<Constant>>(content);
+                return result;
             }
         }
 
@@ -215,7 +215,7 @@ namespace TechnicalTestFE.Services
             }
         }
 
-        public async Task<Author> RegisterAuthor(Author author)
+        public async Task<Response<Author>> RegisterAuthor(Author author)
         {
             using (var client = GetClient("Autores"))
             {
@@ -227,11 +227,11 @@ namespace TechnicalTestFE.Services
 
                 var content = await response.Content.ReadAsStringAsync();
                 var result = JsonConvert.DeserializeObject<Response<Author>>(content);
-                return result.Data;
+                return result;
             }
         }
 
-        public async Task<bool> UpdateAuthor(Author author)
+        public async Task<Response<bool>> UpdateAuthor(Author author)
         {
             using (var client = GetClient("Autores"))
             {
@@ -239,11 +239,11 @@ namespace TechnicalTestFE.Services
                 var response = await client.PutAsync($"ActualizarAutor", stringContent);
 
                 if (!response.IsSuccessStatusCode)
-                    return false;
+                    return null;
 
                 var content = await response.Content.ReadAsStringAsync();
                 var result = JsonConvert.DeserializeObject<Response<bool>>(content);
-                return result.Data;
+                return result;
             }
         }
 

@@ -12,8 +12,11 @@
 
 @if (TempData["Message"] != null)
 {
-    <div class="">
-        <strong></strong> TempData["Message"]
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>@TempData["Message"]</strong>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
     </div>
 }
 

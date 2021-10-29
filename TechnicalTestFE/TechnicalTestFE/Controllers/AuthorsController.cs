@@ -47,9 +47,19 @@ namespace TechnicalTestFE.Controllers
             {
                 var response = await _service.RegisterAuthor(author);
                 if(response != null)
-                    return RedirectToAction(nameof(Index));
-            }
+                {
+                    if (response.StatusCode.Equals(System.Net.HttpStatusCode.OK))
+                    {
+                        TempData["Message"] = null;
+                        return RedirectToAction(nameof(Index));
+                    }
 
+                    TempData["Message"] = response.Message;
+                    return View(author);
+                }
+            }
+            
+            TempData["Message"] = "Verifica tus datos";
             return View(author);
         }
 
@@ -68,11 +78,21 @@ namespace TechnicalTestFE.Controllers
         {
             if (ModelState.IsValid)
             {
-                var isUpdated = await _service.UpdateAuthor(author);
-                if (isUpdated)
-                    return RedirectToAction(nameof(Index));
+                var response = await _service.UpdateAuthor(author);
+                if (response != null)
+                {
+                    if (response.StatusCode.Equals(System.Net.HttpStatusCode.OK))
+                    {
+                        TempData["Message"] = null;
+                        return RedirectToAction(nameof(Index));
+                    }
+
+                    TempData["Message"] = response.Message;
+                    return View(author);
+                }
             }
 
+            TempData["Message"] = "Verifica tus datos";
             return View(author);
         }
 
