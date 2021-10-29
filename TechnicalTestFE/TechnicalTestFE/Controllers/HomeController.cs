@@ -14,24 +14,6 @@ namespace TechnicalTestFE.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IService _service;
-
-        public HomeController(IService service)
-        {
-            _service = service;
-        }
-
-        public async Task<IActionResult> Index()
-        {
-            var books = await _service.GetAuthorByName("Harold Bartolo");
-            return View(books);
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
