@@ -11,6 +11,7 @@ namespace TechnicalTestFE.Models
     public class Author
     {
         [Key]
+        [JsonProperty("id")]
         public int AuthorId { get; set; }
         
         [JsonProperty("nombreCompleto")]
