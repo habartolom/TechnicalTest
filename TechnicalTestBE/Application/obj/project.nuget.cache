@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1JJB4PBvG+okxJnckJkqAqFhoXitWRANkBQKgXxLJV6o5irDzu2O90UDbdDiq33efqoBBoZ2xxGpWOMD5hvwhQ==",
+  "dgSpecHash": "fkMJ/fLGjOBYxOUw7BvGlnl34enbg6wzUGyUN6LW936hm3xIfr8lDL7Ox1TJ4fHi7hWtozY13ZEVRdvuLb/uYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestBE\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WorkApps\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\WorkApps\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.11\\microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",

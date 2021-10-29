@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DtsapNiBuDPiKJl/CWMJVZEg7nhTcK5SAuxm85DPZyytE/EZhPBP3t8KY0hzplUfCqnu7r5tBKDLbT8rKwokPA==",
+  "dgSpecHash": "tudpEFfHuiu911ksqV2WDCVR0UckytGZA3AngxkkJFHc/K2/cBO/xU0fix2jgoHFYsMLVTf3CPmRLcDWJ8LJ9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestBE\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WorkApps\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\WorkApps\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

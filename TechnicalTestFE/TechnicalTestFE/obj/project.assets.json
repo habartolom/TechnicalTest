@@ -6238,11 +6238,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WorkApps\\source\\repos\\TechnicalTestFE\\TechnicalTestFE\\TechnicalTestFE.csproj",
+      "projectUniqueName": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestFE\\TechnicalTestFE\\TechnicalTestFE.csproj",
       "projectName": "TechnicalTestFE",
-      "projectPath": "C:\\Users\\WorkApps\\source\\repos\\TechnicalTestFE\\TechnicalTestFE\\TechnicalTestFE.csproj",
+      "projectPath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestFE\\TechnicalTestFE\\TechnicalTestFE.csproj",
       "packagesPath": "C:\\Users\\WorkApps\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WorkApps\\source\\repos\\TechnicalTestFE\\TechnicalTestFE\\obj\\",
+      "outputPath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestFE\\TechnicalTestFE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

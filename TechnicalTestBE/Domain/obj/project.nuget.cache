@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kCnWb07yITUDMYHKMpuhDqmIHQO53kOCyxEgzf4W5Kk2B01D8SW/17ljS+VwDthUl+1MMT9zdoo0Co5Gt2MhCA==",
+  "dgSpecHash": "+q8jF4kSKSw4dP6Ypi1NGa1VEQV1cz09Y+ajvTqMoLlXr7EyOD6tTp8dedfQcrf2BlnN/3tMUUnEnfSpKQiN4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestBE\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

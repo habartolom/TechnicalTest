@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "keKJqqbZ+/pwZWnQMKeE9AKcmtUCOcrj8BWbN0fdMnb7n9L7oX+F2BGNxXM/ngZxRBb1R2mrLIQyuajlMVCxRA==",
+  "dgSpecHash": "bEROP1FIi5j+TjILNKEhjxJZI3n/tORQ0rA4xls5FobycD6cMesRynKeaw056Fv0sJ6pj/IinaWNkmTCAUkVzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestBE\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WorkApps\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\WorkApps\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

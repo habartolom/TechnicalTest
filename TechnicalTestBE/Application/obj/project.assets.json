@@ -5943,11 +5943,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestBE\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\Application\\Application.csproj",
+      "projectPath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestBE\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\WorkApps\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\Application\\obj\\",
+      "outputPath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestBE\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5973,11 +5973,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\Domain\\Domain.csproj"
+            "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestBE\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestBE\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\Persistence\\Persistence.csproj"
+            "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestBE\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestBE\\Persistence\\Persistence.csproj"
             }
           }
         }

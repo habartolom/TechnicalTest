@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4DYLXUNbnFZ8OHlEZW5fpyPwvuwl6JVbhCusPw2rRnpawhUF6lJScoyutM4IJyuVrCJMqGmiN5h+hl0dKeLg3g==",
+  "dgSpecHash": "oXsMH6XkdG2Q+Bt3Klmck5o+Sxmh7MUMxeBNwVWWlg//hXw80LihRLVR9WNzAVqki27s8cDT3hMvZp1M1wEf8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WorkApps\\source\\repos\\TechnicalTestFE\\TechnicalTestFE\\TechnicalTestFE.csproj",
+  "projectFilePath": "C:\\Users\\WorkApps\\Desktop\\MouseWithoutBorders\\TechnicalTest\\TechnicalTestFE\\TechnicalTestFE\\TechnicalTestFE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WorkApps\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\WorkApps\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
